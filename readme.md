@@ -13,10 +13,10 @@ $ mv communitybot-example.js communitybot.js
 
 Now open and configure the following fields within communitybot.js:
 
-$var votingAccount = 'XXXXX'; // Replace XXXXX with your voting account (no @)<br>
-$var postingKey = 'XXXXXXXXXXXXX'; // Replace XXXXXXXXXXXXX with your voting account's posting key<br>
-$var targetCommunity = "hive-101690"; // Replace hive-101690 with the community you want to vote for<br>
-$var weight = 01000; // Set your voting weight (10000 = 100%)<br>
+$ var votingAccount = 'XXXXX'; // Replace XXXXX with your voting account (no @)<br>
+$ var postingKey = 'XXXXXXXXXXXXX'; // Replace XXXXXXXXXXXXX with your voting account's posting key<br>
+$ var targetCommunity = "hive-101690"; // Replace hive-101690 with the community you want to vote for<br>
+$ var weight = 01000; // Set your voting weight (10000 = 100%)<br>
 
 ## Run
 $ node communitybot.js<br>
